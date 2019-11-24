@@ -23,8 +23,8 @@ client.music.start(client, {
   // Set the api key used for YouTube.
   // This is required to run the bot.
 	botPrefix: "ul!",
-  youtubeKey: "AIzaSyDC1L_V32QN44YqSqMl0PfA7Q9NjUuf2UM"
+  youtubeKey: "process.env.KEY_TOKEN"
 });
 
 // Connect the bot with your Discord applications bot token.
-client.login("NjEwNDIxNzU0MzM0MjgxNzQ5.XVFnCA.aQas6JPcKHv0_WYCdTgTGUdEbJQ");
+client.login(process.env.BOT_TOKEN);
