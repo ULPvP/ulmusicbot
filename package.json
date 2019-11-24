@@ -1,7 +1,7 @@
 {
-  "name": "yumeko",
+  "name": "bearmusicbot",
   "version": "0.1.0",
-  "description": "A simple discord bot",
+  "description": "A Discord music bot",
   "main": "MusicBot.js",
   "scripts": {
     "test": ""
@@ -11,7 +11,7 @@
     "bot",
     "discordbot"
   ],
-  "author": "iCrawl",
+  "author": "ulbear",
   "license": "MIT",
   "dependencies": {
     "dc-music-bot-addon-chinese": "0.0.54",
